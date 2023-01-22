@@ -1,6 +1,6 @@
 # Experiment-08- Encoders-and-decoders 
 ### AIM: 
-To implement 8 to 3 Encoder and  3to8 Decoder using verilog and validate its outputs
+To implement 8 to 3 Encoder and  3 to 8 Decoder using verilog and validate its outputs
 
 ### HARDWARE REQUIRED:  –
 PC, Cyclone II , USB flasher
@@ -106,12 +106,12 @@ input a,b,c;
 output d0,d1,d2,d3,d4,d5,d6,d7;
 assign d0=(~a&~b&~c),
     d1=(~a&~b&c),
-	 d2=(~a&b&~c),
-	 d3=(~a&b&c),
-	 d4=(a&~b&~c),
-	 d5=(a&~b&c),
-	 d6=(a&b&~c),
-	 d7=(a&b&c);
+    d2=(~a&b&~c),
+    d3=(~a&b&c),
+    d4=(a&~b&~c),
+    d5=(a&~b&c),
+    d6=(a&b&~c),
+    d7=(a&b&c);
 endmodule
 ```
 
